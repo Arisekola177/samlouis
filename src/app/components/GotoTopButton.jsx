@@ -12,7 +12,7 @@ const GoToTopButton = () => {
   };
 
   return (
-    <div className="fixed bottom-4 py-2 px-4 right-4 transition-all duration-300 bg-orange-600 text-white rounded-full shadow-lg hover:bg-orange-700">
+    <div className="fixed bottom-4 py-2 px-4 right-4 transition-all duration-300 bg-purple-600 text-white rounded-full shadow-lg hover:bg-orange-700">
       <Link
         href="/"
         onClick={handleScrollToTop}

@@ -1,7 +1,7 @@
 import About from "./components/About";
 import Consulting from "./components/Consulting";
-import Explore from "./components/Explore";
 import Homebanner from "./components/Homebanner";
+import Properties from "./components/Properties";
 import Testimonials from "./components/Testimonials";
 
 
@@ -11,7 +11,7 @@ export default function Home() {
    <Homebanner />
    <About />
    <Consulting />
-   <Explore />
+   <Properties />
    <Testimonials />
   
  </div>

@@ -4,13 +4,15 @@ import { Inter as FontSans } from "next/font/google"
 import { cn } from "@/lib/utils"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 })
 export const metadata = {
-  title: "Samlouis",
+  title: "Samlois",
   description: "Real Estate",
 };
 

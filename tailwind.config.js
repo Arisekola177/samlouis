@@ -17,7 +17,24 @@ module.exports = {
       },
     },
     extend: {
+      screens: {
+        xs: "240px",
+        sm: "320px",
+        sml: "480px",
+        md: "768px",
+        lg: "960px",
+        lgl: "1024px",
+        xl: "1280px",
+      },
       keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      
+      animation: {
+        fadeIn: 'fadeIn 2s ease-in-out',
+      },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
